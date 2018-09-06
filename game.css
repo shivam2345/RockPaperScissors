@@ -1,0 +1,27 @@
+table, th, td {
+	border: 1px solid black;
+	width: 50%;
+	color: white;
+	padding: 12px;
+	border-collapse: collapse;
+	border-color: #DAA520;
+	zoom: 125%;
+}
+body {
+	background-color: black;
+}
+
+h3{
+	color: white;
+	margin-bottom: 20px;
+	font-size: 150%;
+}
+th {
+	background-color: #9f0000;
+	color: white;
+}
+p
+{
+	color: white;
+	font-size: large;
+}

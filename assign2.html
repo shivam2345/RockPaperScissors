@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<meta charset="UTF-8">
+	<h3 id = "demo"></h3>
+	<script src="game.js"></script>
+	<link rel="stylesheet" href="game.css">
+
+</head>
+
+<body>
+
+	<table>
+		<tr>
+			<th>Select One:</th>
+			<th></th> 
+			<th>Computer</th>
+		</tr>
+		<tr>
+			<td><input type="radio" name="type" value="Paper" id="Paper";/>Paper<br/></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="type" value="Scissors" id="Scissors;"/>Scissors<br/></td>
+			<td style="text-align: center;"><button type="button" onclick="play()">Go</button></td>
+			<td style = "text-align: center;" id= "computer"></td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="type" value="Rock" id="Rock";/>Rock<br/></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<p id = "result"></p>
+	<p id = "history"></p>
+	<p id = "winPercent"></p>
+</body>
+</html>
